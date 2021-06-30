@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="thisButton">Test</button>
+    
+    <!-- <button onclick="alert('hello')">click</button> -->
+    <!-- JS can be added inline, in body, or sourced -->
+    <!-- JS is read top to bottom, so hello will go first, test will go right after, and inline will go "on click" -->
+    <!-- MOST JS SHOULD BE ADDED TO THE EXTERNAL .JS FILE -->
+
+    <!-- <script>
+        alert('hello');
+    </script> -->
+
+    <script src="js/main.js"></script>
+    <!-- script should be at the end of body because JS reads top down. if it's at the top, then all the JS stuff will run before the body exists -->
+    
+    <!-- <script src="" defer></script>
+    adding the "defer property to a script tag in the head will tell the script to wait until the page is finished loading to run"
+    -->
+    <!-- with CSS, the order it's linked doesn't matter as much since it will apply the styles to anything that matches, no matter when it's created. But JS is interacting with objects in the DOM. -->
+</body>
+</html>

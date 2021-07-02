@@ -70,3 +70,12 @@
     // like console log, but provides all the object info associated with the thing being dir'd
     console.dir(myButton);
     // when we use createElement, it's creating a JS object w/ all that info, but we just need to define the TYPE of object. neato
+
+    // TAKE HOME
+    console.log('Myriah Nottage');
+    console.log('thai cucumber salad on hot days')
+
+/*    here's
+    a bunch
+        of stuff
+*/

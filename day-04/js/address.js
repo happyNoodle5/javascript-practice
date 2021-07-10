@@ -21,7 +21,7 @@ cityInput.addEventListener('change', function() {
     if(this.value) {
         console.log('yay again!');
     } else {
-        console.log('booo agan');
+        console.log('booo again');
     }
 })
 select.addEventListener('change', function() {
